@@ -61,7 +61,7 @@ function renderGame() {
   }
 }
 function newCard() {
-  if (isAlive) {
+  if (isAlive && !hasBlackjack) {
     let nextCard = getRandomNum();
     cardimgEl.src = getCardImg(nextCard);
     cards.push(nextCard);
