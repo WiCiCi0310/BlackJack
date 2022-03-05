@@ -75,4 +75,5 @@ function reset() {
   cards = [];
   renderGame();
   isAlive = false;
+  hasBlackjack = false;
 }
