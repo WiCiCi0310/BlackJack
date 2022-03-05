@@ -70,9 +70,9 @@ function newCard() {
   }
 }
 function reset() {
-  isAlive = false;
   cardimgEl.src = "#";
   sum = 0;
   cards = [];
   renderGame();
+  isAlive = false;
 }
